@@ -1,6 +1,6 @@
 <?php
 /**
- * @author: Earl Augustine Elnar
+ * @author: Earl Elnar
  * @email: acenplify@gmail.com
  */
 namespace MageTim\OrderWeight\Block\Adminhtml;
