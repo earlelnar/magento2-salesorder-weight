@@ -1,0 +1,24 @@
+<?php
+    $weight_unit = $block->getWeightUnit();
+    $weight = $block->getOrderWeight();
+?>
+<section class="admin__page-section">
+    <div class="admin__page-section-title">
+        <span class="title"><?php /* @escapeNotVerified */ echo __('Order Weight Information') ?></span>
+    </div>
+    <div class="admin__page-section-content">
+        <div class="admin__page-section-item order-information">
+            <table class="admin__table-secondary order-information-table">
+                <tbody>
+                <tr>
+                    <th>Order Total Weight:</th>
+                    <td>
+                        <?php echo number_format($weight,2)." ".$weight_unit; ?>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Earl Augustine Elnar
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <block class="MageTim\OrderWeight\Block\Adminhtml\OrderWeight" name="weight_status" template="MageTim_OrderWeight::order/view/order_weight.phtml" />
+    </body>
+</page>
